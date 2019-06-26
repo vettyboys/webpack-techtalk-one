@@ -1,4 +1,4 @@
-class ValidationService {
+export class ValidationService {
     parseParams(...inputs) {
         return inputs.map(input => parseInt(input))
     };

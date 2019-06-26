@@ -1,4 +1,4 @@
-class ComponentService {
+export class ComponentService {
     constructor() {
         this.parameterA = document.getElementById("paramA");
         this.parameterB = document.getElementById("paramB");
